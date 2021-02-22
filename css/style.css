@@ -113,3 +113,59 @@ header img{
     background-image: url("../assets/icon/arrowButtomBlack.svg");
    
 }
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--offWhite);
+}
+
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top:8rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.main-exchange-container--title{
+    width: 90%;
+    min-width: 29.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+
+}
+
+
+
+.main-exchange-container--title h2{
+    
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warmBlack);
+    margin-bottom: 3rem;
+}
+
+.main-exchange-container--title p{
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+
+
+.main-exchange-container .background-image{
+    width: 20rem;
+    height: 20rem;
+    background-image: url("../assets/image/BitcoinImageTranparent.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+
