@@ -169,3 +169,95 @@ main{
 }
 
 
+.main-tablets-container{
+    width: 70%;
+    min-width: 299px;
+    margin: 0 auto;
+}
+
+
+
+.main-tablets-container .main-Monedas-tittle{
+    color: var(--bitcoinOrange);
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    width: 80%;
+    
+}
+
+.main-tablets-container .main-Monedas--container{
+    width: 90%;
+    margin: 0 auto;
+    height: 156px ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 39px 39px 39px 39px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--justWhite);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--grey);
+
+}
+
+.main-tablets-container .main-Monedas--container .precio{
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #757575;
+}
+
+.main-tablets-container .main-Monedas--container .precio{
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #757575;
+}
+
+.main-tablets-container .main-Monedas--container .arrowDown {
+    display: inline-block;
+    background-image: url("../assets/icon/arrowRed.svg");
+    width: 13px;
+    height: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+.main-tablets-container .main-Monedas--container .arrowUp {
+    display: inline-block;
+    background-image: url("../assets/icon/arrowGreen.svg");
+    width: 13px;
+    height: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: 1rem;
+}
+
+
+
+.main-tablets-container .main-Monedas--container div{
+    border: 0.5px solid var(--offWhite);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
