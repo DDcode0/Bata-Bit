@@ -173,6 +173,7 @@ main{
     width: 70%;
     min-width: 299px;
     margin: 0 auto;
+
 }
 
 
@@ -189,7 +190,7 @@ main{
     
 }
 
-.main-tablets-container .main-Monedas--container{
+.main-tablets-container .main-Monedas--container {
     width: 90%;
     margin: 0 auto;
     height: 156px ;
@@ -205,6 +206,7 @@ main{
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: var(--grey);
+    border-radius: 8px;
 
 }
 
@@ -212,13 +214,9 @@ main{
     font-weight: normal;
     font-size: 1.4rem;
     color: #757575;
+    justify-content: center;
 }
 
-.main-tablets-container .main-Monedas--container .precio{
-    font-weight: normal;
-    font-size: 1.4rem;
-    color: #757575;
-}
 
 .main-tablets-container .main-Monedas--container .arrowDown {
     display: inline-block;
@@ -257,7 +255,111 @@ main{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 2rem;
 
 }
 
+.main-tablets-container .main-Monedas-date{
+    min-width: 173px;
+    width: 75%;
+    height: 31px;
+    background-color: var(--softOrange);
+    border-radius: 8px;    
+    margin: 0 auto;
+    margin-top: 16px ;
+    margin-bottom: 16px ;
+}
+
+.main-Monedas-date p{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    font-family: "Inter",sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--warmBlack1);
+    line-height: 15px;
+}
+
+/* otra tabla-------- */
+
+/* .main-tablet--Comisiones{
+    display: none;
+} */
+.main-tablet--Comisiones .main-Comisiones--container {
+    width: 90%;
+    margin: 0 auto;
+    height: 156px ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 39px 39px 39px 39px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--justWhite);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--grey);
+    border-radius: 8px;
+}
+
+
+.main-tablet--Comisiones .main-Comisiones-tittle{
+    color: var(--secondaryBlue);
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    width: 80%;
+    
+}
+
+.main-tablet--Comisiones .main-Comisiones--container .precio{
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #757575;
+    justify-content: center;
+}
+
+.main-tablet--Comisiones .main-Comisiones--container div{
+  
+    border: 0.5px solid var(--offWhite);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2rem;
+}
+
+.main-tablet--Comisiones .main-Comisiones-date{
+    min-width: 173px;
+    width: 75%;
+    height: 31px;
+    background-color: var(--softBlue);
+    border-radius: 8px;    
+    margin: 0 auto;
+    margin-top: 16px ;
+    margin-bottom: 16px ;
+}
+
+.main-tablet--Comisiones .main-Comisiones-date p{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    font-family: "Inter",sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--warmBlack);
+    line-height: 15px;
+}
