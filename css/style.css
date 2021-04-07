@@ -421,7 +421,9 @@ main .main-beneficion-container{
 
 .benicion-cards--container .benificion-detail--card{
     width: 90%;
-    height: 152px;
+    min-width: 298px;
+    max-width: 400px;
+    min-height: 150px;
     background-color: var(--warmBlack1);
     margin-top: 16px;
     padding: 16px;
@@ -474,8 +476,205 @@ background-image: url("../assets/icon/Icondollar.svg");
 background-image: url("../assets/icon/IconCheckCircle.svg");
 }
 
+.womanLOgo{
+    width: 100%;
+    min-width: 320px;
+    height: 75vh;
+    
+    background-image: url("../assets/image/bitcoinbaby2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+.womanLOgo h2{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--justWhite);
+
+    padding-top:64px;
+
+}
+
+.main--plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: #e5e5e5;
+    text-align: center;
+
+ 
+}
 
 
+.main--plans-container .plans--title{
+   
+    width: 90%;
+    min-width: 290px;
+    height: auto;
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+
+}
+
+.main--plans-container .plans--title h2{
+    padding-top: 50px;
+    margin-bottom: 24px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+
+    color: var(--warmBlack);
+}
+
+.main--plans-container .plans--title p{
+
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #757575;
+}
+
+.plans-container--slider{
+
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+
+}
+
+
+.plans-container--slider .plans-container--card{
+    width: 60%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    padding: 31px 15px 24px;
+
+    background-color: var(--justWhite);
+    position: relative;
+    scroll-snap-align: center;
+    margin: 50px 8px 0;
+
+
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 15px;
+}
+
+.plans-container--card .card--title{
+    width: 100px;
+
+
+
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 50px);
+    padding: 8px;
+
+    font-family: "Inter",sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+    color: var(--justWhite);
+    background-color: #F7931A;
+    border-radius: 8px;
+
+}
+
+.card--moneyPlan{
+    width: 100%;
+}
+
+.card--moneyPlan .moneyPlan--pago{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #000000;
+}
+
+.card--moneyPlan .moneyPlan--number{
+
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8px;
+
+    font-family: "Inter",sans-serif;
+    font-weight: bold;
+    font-size: 5.2rem;
+    line-height: 6.1rem;
+    
+    color: #000000;
+    position: relative;
+}
+
+.card--moneyPlan .moneyPlan--number span{
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 40px);
+    margin-right: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+   
+    color: #363636;
+}
+
+.card--moneyPlan .moneyPlan--descripcion{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    
+    margin-top: 16px;
+    margin-bottom: 16px;
+   
+
+    color: #757575;
+}
+
+.card--moneyPlan .moneyPlan--escoger{
+
+    width: 150px;
+    height: 50px;
+
+    padding: 8px;
+    margin: 0 auto;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--warmBlack); 
+
+    border: 2px solid #F7931A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #FAF8F7;
+
+   
+    
+}
+
+.card--moneyPlan .moneyPlan--escoger span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icon/arrow-orange.svg");
+
+    vertical-align: text-bottom;
+}
 
 
 
